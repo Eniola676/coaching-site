@@ -1,0 +1,17 @@
+.banner {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 110;
+  background: var(--accent);
+  /* Dark green on bright green: 8.7:1 */
+  color: var(--primary-deep);
+}
+
+.text {
+  padding-block: 8px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  text-wrap: balance;
+}
